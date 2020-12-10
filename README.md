@@ -12,10 +12,13 @@ Compile and package with
 mvn package
 ```
 
-then run ```
+then run 
+```
 java -jar target/tapop100-1.0-SNAPSHOT-jar-with-dependencies.jar true
 ```
+
 to turn the switch on, and 
+
 ```
 java -jar target/tapop100-1.0-SNAPSHOT-jar-with-dependencies.jar false
 ```
