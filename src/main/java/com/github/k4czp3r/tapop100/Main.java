@@ -1,7 +1,9 @@
+package com.github.k4czp3r.tapop100;
+
 import com.google.gson.JsonObject;
-import domain.HandshakeResponse;
-import domain.KspKeyPair;
-import helpers.KspDebug;
+import com.github.k4czp3r.tapop100.domain.HandshakeResponse;
+import com.github.k4czp3r.tapop100.domain.KspKeyPair;
+import com.github.k4czp3r.tapop100.helpers.KspDebug;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -60,7 +62,11 @@ public class Main {
         final String password = maybePassword.get();
 
         if(args.length < 1) {
-            args = new String[]{"false"};
+            System.out.println("Please provide parameters to this script, e.g. to turn on the switch: ");
+            System.out.println("java -jar tapop100-1.0-SNAPSHOT-jar-with-dependencies.jar true");
+            System.out.println("to turn it off: ");
+            System.out.println("java -jar tapop100-1.0-SNAPSHOT-jar-with-dependencies.jar false");
+            System.exit(1);
         }
 
         boolean enabled = Boolean.parseBoolean(args[0]);

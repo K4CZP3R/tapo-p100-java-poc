@@ -1,3 +1,5 @@
+package com.github.k4czp3r.tapop100;
+
 import java.util.HashMap;
 import java.util.Map;
 

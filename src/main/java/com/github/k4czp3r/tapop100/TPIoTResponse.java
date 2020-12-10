@@ -1,3 +1,5 @@
+package com.github.k4czp3r.tapop100;
+
 public class TPIoTResponse {
     private int error_code;
     private String error_msg;

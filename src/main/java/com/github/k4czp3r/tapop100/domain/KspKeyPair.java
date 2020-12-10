@@ -1,4 +1,4 @@
-package domain;
+package com.github.k4czp3r.tapop100.domain;
 
 public class KspKeyPair {
 

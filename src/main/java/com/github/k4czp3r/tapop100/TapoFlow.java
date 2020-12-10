@@ -1,10 +1,12 @@
+package com.github.k4czp3r.tapop100;
+
 import com.google.gson.JsonObject;
 import com.squareup.okhttp.Response;
-import domain.*;
-import helpers.KspB64;
-import helpers.KspDebug;
-import helpers.KspHttp;
-import helpers.KspJson;
+import com.github.k4czp3r.tapop100.domain.*;
+import com.github.k4czp3r.tapop100.helpers.KspB64;
+import com.github.k4czp3r.tapop100.helpers.KspDebug;
+import com.github.k4czp3r.tapop100.helpers.KspHttp;
+import com.github.k4czp3r.tapop100.helpers.KspJson;
 
 import java.io.IOException;
 
