@@ -38,7 +38,7 @@ public class Main {
             System.out.println("No IP of PowerPlug specified. Please adjust tapop100.properties");
         }
         if(maybeEmail.isEmpty()) {
-            System.out.printf("No TP-Email-Address specified. Please adjust tapop100.properties");
+            System.out.println("No TP-Email-Address specified. Please adjust tapop100.properties");
         }
         if(maybePassword.isEmpty()) {
             System.out.println("No Password for the Email-Address specified. Please adjust tapop100.properties");
