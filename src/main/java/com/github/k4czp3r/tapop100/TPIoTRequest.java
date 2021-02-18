@@ -1,3 +1,5 @@
+package com.github.k4czp3r.tapop100;
+
 public class TPIoTRequest<T> {
     private String method;
     private T params;

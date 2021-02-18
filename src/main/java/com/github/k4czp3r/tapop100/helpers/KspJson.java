@@ -1,4 +1,4 @@
-package helpers;
+package com.github.k4czp3r.tapop100.helpers;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;

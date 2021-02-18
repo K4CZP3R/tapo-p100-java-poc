@@ -1,18 +1,14 @@
-import domain.KspKeyPair;
-import helpers.KspB64;
-import helpers.KspDebug;
+package com.github.k4czp3r.tapop100;
 
-import javax.crypto.BadPaddingException;
+import com.github.k4czp3r.tapop100.domain.KspKeyPair;
+import com.github.k4czp3r.tapop100.helpers.KspB64;
+import com.github.k4czp3r.tapop100.helpers.KspDebug;
+
 import javax.crypto.Cipher;
-import javax.crypto.IllegalBlockSizeException;
-import javax.crypto.NoSuchPaddingException;
-import java.io.UnsupportedEncodingException;
 import java.security.*;
 import java.security.interfaces.RSAPrivateKey;
 import java.security.interfaces.RSAPublicKey;
-import java.security.spec.InvalidKeySpecException;
 import java.security.spec.PKCS8EncodedKeySpec;
-import java.util.HashMap;
 
 public class KspEncryption {
     public static KspKeyPair generateKeyPair() throws NoSuchAlgorithmException {

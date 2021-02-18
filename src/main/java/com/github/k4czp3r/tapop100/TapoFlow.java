@@ -1,10 +1,12 @@
+package com.github.k4czp3r.tapop100;
+
 import com.google.gson.JsonObject;
 import com.squareup.okhttp.Response;
-import domain.*;
-import helpers.KspB64;
-import helpers.KspDebug;
-import helpers.KspHttp;
-import helpers.KspJson;
+import com.github.k4czp3r.tapop100.domain.*;
+import com.github.k4czp3r.tapop100.helpers.KspB64;
+import com.github.k4czp3r.tapop100.helpers.KspDebug;
+import com.github.k4czp3r.tapop100.helpers.KspHttp;
+import com.github.k4czp3r.tapop100.helpers.KspJson;
 
 import java.io.IOException;
 
@@ -44,10 +46,10 @@ public class TapoFlow {
         }
     }
 
-    public void changePlugState(C658a c658a, String token, String cookie){
+    public void setPlugState(C658a c658a, String token, String cookie, boolean on){
         try{
             DeviceInfoParams deviceInfoParams = new DeviceInfoParams();
-            deviceInfoParams.setDeviceOn(true);
+            deviceInfoParams.setDeviceOn(on);
 
             TPIoTRequest<DeviceInfoParams> tpIoTRequest = new TPIoTRequest<>();
             tpIoTRequest.setMethod("set_device_info");
@@ -81,10 +83,10 @@ public class TapoFlow {
         }
     }
 
-    public void changeStatusLed(C658a c658a, String token, String cookie){
+    public void changeStatusLed(C658a c658a, String token, String cookie, boolean enabled){
         try{
             PlugDeviceInfoParams plugDeviceInfoParams = new PlugDeviceInfoParams();
-            plugDeviceInfoParams.setLedEnable(false);
+            plugDeviceInfoParams.setLedEnable(enabled);
 
             TPIoTRequest<PlugDeviceInfoParams> tpIoTRequest = new TPIoTRequest<>();
             tpIoTRequest.setMethod("set_led_status");

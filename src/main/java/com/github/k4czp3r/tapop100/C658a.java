@@ -1,12 +1,10 @@
-import helpers.KspB64;
+package com.github.k4czp3r.tapop100;
 
-import javax.crypto.BadPaddingException;
+import com.github.k4czp3r.tapop100.helpers.KspB64;
+
 import javax.crypto.Cipher;
-import javax.crypto.IllegalBlockSizeException;
-import javax.crypto.NoSuchPaddingException;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
-import java.security.NoSuchAlgorithmException;
 
 public class C658a {
 

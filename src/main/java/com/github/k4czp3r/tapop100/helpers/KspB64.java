@@ -1,4 +1,4 @@
-package helpers;
+package com.github.k4czp3r.tapop100.helpers;
 
 public class KspB64 {
     public static byte[] encode(byte[] src)

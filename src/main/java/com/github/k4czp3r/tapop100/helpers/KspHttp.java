@@ -1,12 +1,10 @@
-package helpers;
+package com.github.k4czp3r.tapop100.helpers;
 
 
 import com.squareup.okhttp.*;
 import org.sonatype.inject.Nullable;
 
 import java.io.IOException;
-import java.net.http.HttpClient;
-import java.util.concurrent.TimeUnit;
 
 public class KspHttp {
     public static final MediaType JSON
