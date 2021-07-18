@@ -2,7 +2,7 @@
 
 Proof of Concept by K4CZP3R through reverse engineering. 
 
-Writeup can be found at: https://k4czp3r.xyz/posts/reverse-engineering-tp-link-tapo/
+Writeup can be found at: https://k4czp3r.xyz/reverse-engineering/tp-link/tapo/2020/10/15/reverse-engineering-tp-link-tapo.html
 
 ## Usage
 
