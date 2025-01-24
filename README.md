@@ -1,11 +1,8 @@
 # TP-Link Tapo P100 Smart Switch Control
 
-Proof of Concept by K4CZP3R through reverse engineering. 
+First proof of Concept by K4CZP3R through reverse engineering. 
 
 Writeup can be found at: https://k4czp3r.xyz/reverse-engineering/tp-link/tapo/2020/10/15/reverse-engineering-tp-link-tapo.html
-
-[![BuyMeCoffee][buymecoffeebadge]][buymecoffee]
-
 
 ## Usage
 
